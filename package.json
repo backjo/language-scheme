@@ -1,6 +1,6 @@
 {
   "name": "language-scheme",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": false,
   "description": "A scheme syntax highlighter",
   "repository": "https://github.com/backjo/language-scheme",
