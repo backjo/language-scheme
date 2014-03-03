@@ -1,0 +1,5 @@
+'.source.scheme':
+  'editor':
+    'commentStart': ';'
+    'increaseIndentPattern': '(?x)^ [ \\t]*+ \\(\n\t  (?<par>\n\t    ( [^()\\n]++ | \\( \\g<par> \\)? )*+\n\t  )\n\t$'
+    'decreaseIndentPattern': '(?x)^ [ \\t]*+\n\t  (?<par>\n\t    ( [^()\\n]++ | \\( \\g<par> \\) )*+\n\t  )\n\t  ( \\) [ \\t]*+ ) ++\n\t$'

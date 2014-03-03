@@ -1,0 +1,13 @@
+{
+  "name": "language-scheme",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A scheme syntax highlighter",
+  "repository": "https://github.com/backjo/language-scheme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
