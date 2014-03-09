@@ -2,6 +2,7 @@
 'fileTypes': [
   'scm'
   'sch'
+  'ss'
 ]
 'name': 'Scheme'
 'patterns': [
