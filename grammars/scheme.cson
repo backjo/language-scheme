@@ -3,6 +3,7 @@
   'scm'
   'sch'
   'ss'
+  'rkt'
 ]
 'name': 'Scheme'
 'patterns': [
