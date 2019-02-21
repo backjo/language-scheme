@@ -9,6 +9,8 @@
 'patterns': [
   {
     'include': '#comment'
+  }
+  {
     'include': '#comment-block'
   }
   {
