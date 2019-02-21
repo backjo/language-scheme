@@ -9,6 +9,7 @@
 'patterns': [
   {
     'include': '#comment'
+    'include': '#comment-block'
   }
   {
     'include': '#sexp'
@@ -41,6 +42,14 @@
             'name': 'punctuation.definition.comment.scheme'
         'end': '\\n'
         'name': 'comment.line.semicolon.scheme'
+      }
+    ]
+  'comment-block':
+    'patterns': [
+      {
+        'begin': '\\#\\|'
+        'end': '\\|\\#'
+        'name': 'comment.block.r6rs.scheme'
       }
     ]
   'constants':
